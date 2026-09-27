@@ -24,7 +24,7 @@ API_ID       = os.getenv("38492004", "")
 API_HASH     = os.getenv("7deb13ae4fc91babcfc6bb02c608a122", "")
 BOT_TOKEN    = os.getenv("8886823291:AAEs_jdcVe2dkRWFxcAh9rNGCV5OYiKzJ9c", "")
 MONGO_DB     = os.getenv("mongodb+srv://dbanu:dbanu@cluster0.b40rp8d.mongodb.net/?appName=Cluster0", "")
-DB_NAME      = os.getenv("dbanu", "telegram_downloader")
+DB_NAME      = os.getenv("NAME", "telegram_downloader")
 
 # ─── OWNER / CONTROL SETTINGS ───────────────────────────────────────────────────
 OWNER_ID     = list(map(int, os.getenv("OWNER_ID", "").split()))  # space-separated list
