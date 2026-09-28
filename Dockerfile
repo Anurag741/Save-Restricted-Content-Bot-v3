@@ -8,4 +8,4 @@ RUN pip3 install --no-cache-dir -U -r requirements.txt
 COPY . .
 EXPOSE 5000
 
-CMD ["python3", "-u", "main.py"]
+CMD python3 -m flask run -h 0.0.0.0 -p 5000 & python3 -u main.py
